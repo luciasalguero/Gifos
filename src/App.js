@@ -1,5 +1,4 @@
 import "./App.css";
-require ("dotenv").config();
 import React from "react";
 import { useEffect } from "react";
 import { Header } from "./components/header/Header";
@@ -8,7 +7,6 @@ import { Results } from "./components/results/Results";
 import { Loader } from "./components/loader/Loader";
 import { AppContext } from "./contexts/AppContext";
 import { ThemeContext } from "./contexts/ThemeContext";
-
 
 
 export default function App() {
@@ -24,9 +22,9 @@ export default function App() {
     setAutocomplete
   } = React.useContext(AppContext);
 
-  const apiKey = process.env.REACT_APP_GIFOS_KEY;
-  const searchPath = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${input}&limit=12`;
-  const autocompletePath = `https://api.giphy.com/v1/gifs/search/tags?api_key=${apiKey}&q=${input}&limit=4`;
+  const KEY = process.env.REACT_APP_GIFOS_KEY;
+  const searchPath = `https://api.giphy.com/v1/gifs/search?api_key=${KEY}&q=${input}&limit=12`;
+  const autocompletePath = `https://api.giphy.com/v1/gifs/search/tags?api_key=${KEY}&q=${input}&limit=4`;
 
 
   useEffect(() => {
