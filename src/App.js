@@ -21,7 +21,7 @@ export default function App() {
     setAutocomplete
   } = React.useContext(AppContext);
 
-  const apiKey = "bZtfB5iCMq61L8Esv6DCeCIFz7S36ZtY";
+  
   const searchPath = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${input}&limit=12`;
   const autocompletePath = `https://api.giphy.com/v1/gifs/search/tags?api_key=${apiKey}&q=${input}&limit=4`;
 
