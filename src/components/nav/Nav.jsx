@@ -1,6 +1,6 @@
 import "./Nav.css";
 import React from "react";
-import { ButtonSearch } from "../buttonSearch/ButtonSearch";
+import { ButtonSearch } from "../buttonSearch/buttonSearch";
 
 export function Nav() {
   return (
