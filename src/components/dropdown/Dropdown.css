@@ -1,0 +1,33 @@
+.autocomplete {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .no-autocomplete {
+    border: none;
+  }
+  
+  .autocomplete-items {
+    z-index: 9999;
+    background: var(--white-black);
+  }
+  
+  .autocomplete-items:hover {
+    background: var(--grey);
+    cursor: pointer;
+  }
+  
+  .input-search {
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    height: 52px;
+    background: none;
+    color: var(--black-white);
+    outline: none;
+    padding-right: 17.5%;
+    padding-left: 6%;
+    transform: translateX(-22px);
+    border-radius: 61px;
+  }
+  

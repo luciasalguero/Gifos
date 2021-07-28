@@ -1,0 +1,13 @@
+.nav {
+    margin: 7% 0;
+    /* position: absolute; */
+  }
+  
+  .main_title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  
+  .turquoise {
+    color: #5ed7c6;
+  }

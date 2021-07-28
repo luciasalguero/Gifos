@@ -1,0 +1,12 @@
+.change-btn {
+    position: absolute;
+    width: 148px;
+    height: 43px;
+    left: 973px;
+    top: 38px;
+    border: 1px solid #6809e1;
+    box-sizing: border-box;
+    border-radius: 61px;
+    background: var(--white-black);
+  }
+  

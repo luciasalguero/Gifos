@@ -1,0 +1,58 @@
+.light {
+    --violet: #572ee5;
+    --violet-white: #572ee5;
+    --green: rgb(79, 227, 193);
+    --grey: #e7e7e7;
+    --grey-black: #e7e7e7;
+    --black-white: #121212;
+    --white-black: white;
+  }
+  
+  .dark {
+    --violet: #572ee5;
+    --violet-white: #ffffff;
+    --green: rgb(79, 227, 193);
+    --grey: #e7e7e7;
+    --grey-black: #212121;
+    --black-white: #ffffff;
+    --white-black: rgb(55, 55, 55);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    border-top: 5px solid var(--violet);
+    background: var(--white-black);
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .principal-container {
+    width: 900px;
+    border: 1px solid var(--grey);
+    font-weight: 700;
+  }
+  
+  .violet-text {
+    font-family: "Roboto", sans-serif;
+    color: var(--violet-white);
+  }
+  
